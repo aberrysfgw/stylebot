@@ -1,6 +1,8 @@
-/* body {border: 1px solid lime;} */
-#navbar-main > li:nth-child(2) {display:none;}
 #navbar-main > li:nth-child(3) {display:none;}
 #navbar-main > li:nth-child(4) {display:none;}
-#navbar-main > li:nth-child(5) {display:none;}
 #navbar-main > li:nth-child(6) {display:none;}
+#navbar-main > li:nth-child(7) {display:none;}
+
+ul.dropdown-menu, ul.dropdown-menu-overflow {
+  width: 380px;
+}
